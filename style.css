@@ -31,6 +31,8 @@ section {
 
 #idea {
     background-color: #172C67;
+    margin: 0;
+    height: 700px;
 }
 
 #idea h1 {
@@ -41,6 +43,40 @@ section {
     letter-spacing: 5px;
     color: #F7F0E7;
     margin-bottom: 20px;
+}
+
+#idea h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+    font-family: 'Futura';
+    letter-spacing: 2px;
+    color: #91A1CD;
+    margin: 10px;
+}
+
+#idea p {
+    font-family: 'Open Sans';
+    color: #F7F0E7;
+
+}
+
+#idea .sectionwrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#idea .column_1 {
+    width: 46%;
+    padding: 20px;
+}
+
+#idea .column_2 {
+    width: 46%;
+    padding: 20px;
 }
 
 /*---- APP ----*/
@@ -273,7 +309,7 @@ section {
 }
 
 #maide {
-    background-image: url("");
+    background-image: url("img/selfportraits/maide.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 30px;
@@ -287,7 +323,7 @@ section {
 }
 
 #mari {
-    background-image: url("");
+    background-image: url("img/selfportraits/mari.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 30px;
