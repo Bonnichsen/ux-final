@@ -1,0 +1,536 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #172C67;
+    width: 100%;
+}
+
+section {
+    background-color: #5F74AB;
+    width: 100%;
+    height: 600px;
+    padding-top: 70px;
+}
+
+/*------ SECTIONS ------*/
+
+/*---- SPLASH ----*/
+
+#splash {
+    background-image: url(img/splash_kea_rent.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+
+}
+
+
+
+/*---- IDEA ----*/
+
+#idea {
+    background-color: #172C67;
+}
+
+#idea h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 4.5vw;
+    font-family: 'Futura';
+    letter-spacing: 5px;
+    color: #F7F0E7;
+    margin-bottom: 20px;
+}
+
+/*---- APP ----*/
+
+#app {
+    background-color: #284083;
+}
+
+#app h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 4.5vw;
+    font-family: 'Futura';
+    letter-spacing: 5px;
+    color: #F7F0E7;
+    margin-bottom: 20px;
+}
+
+/*---- PITCH ----*/
+
+#pitch {
+    background-color: #405794;
+
+}
+
+#pitch h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 4.5vw;
+    font-family: 'Futura';
+    letter-spacing: 5px;
+    color: #F7F0E7;
+    margin-bottom: 20px;
+}
+
+#pitch a {
+    font-size: 3vw;
+    color: #91A1CD;
+    position: absolute;
+    left: 38.5vw;
+    margin-top: 10vw;
+}
+
+/*---- SCRUM ----*/
+
+#scrum {
+    background-color: #91A1CD;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+#scrum .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+#scrum h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 4.5vw;
+    font-family: 'Futura';
+    letter-spacing: 5px;
+    color: #F7F0E7;
+    margin-bottom: 20px;
+}
+
+#scrum h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Futura';
+    letter-spacing: 2px;
+    color: #F7F0E7;
+}
+
+.scrum_video {
+    text-align: center;
+    margin: 5px;
+}
+
+/*---- WORK ----*/
+
+#work {
+    background-color: #405794;
+}
+
+#work h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 4.5vw;
+    font-family: 'Futura';
+    letter-spacing: 5px;
+    color: #F7F0E7;
+    margin-bottom: 20px;
+
+}
+
+#work a {
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Futura';
+    letter-spacing: 5px;
+    color: #F49131;
+}
+
+#work a:hover {
+    color: #202533;
+}
+
+#fernis {
+    padding-left: 180px;
+}
+
+#work p {
+    font-family: 'Open Sans';
+    color: #202533;
+    margin: 30px;
+}
+
+#work .sectionwrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*---- TEST ----*/
+
+#test {
+    background-color: #284083;
+}
+
+#test h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 4.5vw;
+    font-family: 'Futura';
+    letter-spacing: 5px;
+    color: #F7F0E7;
+    margin-bottom: 20px;
+}
+
+#test a {
+    font-size: 3vw;
+    color: #91A1CD;
+    position: absolute;
+    left: 26.4vw;
+    margin-top: 10vw;
+}
+
+
+
+/*---- CONTACT ----*/
+
+#contact {
+    background-color: #172C67;
+    padding-bottom: 70px;
+}
+
+#contact h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 4.5vw;
+    font-family: 'Futura';
+    letter-spacing: 5px;
+    color: #F7F0E7;
+    margin-bottom: 20px;
+}
+
+#contact h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Futura';
+    letter-spacing: 2px;
+    color: #F7F0E7;
+}
+
+#contact li {
+    margin: 0;
+    font-size: 12px;
+    font-family: 'Futura';
+    letter-spacing: 1px;
+    color: #F7F0E7;
+}
+
+#contact .sectionwrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#contact .column_1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px 0px 0px 0px;
+}
+
+#contact .column_2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px 0px 0px 0px;
+}
+
+#benjamin {
+    background-image: url("img/selfportraits/benjamin.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+
+    width: 200px;
+    height: 200px;
+    order: 1;
+}
+
+#benjamin:hover {
+    transform: scale(1.3);
+}
+
+#maide {
+    background-image: url("");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+    order: 2;
+}
+
+#maide:hover {
+    transform: scale(1.3);
+}
+
+#mari {
+    background-image: url("");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+    order: 3;
+}
+
+#contact .mari {
+    order: 3;
+}
+
+#mari:hover {
+    transform: scale(1.3);
+}
+
+#mini {
+    background-image: url("img/selfportraits/mini.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+    order: 4;
+}
+
+#contact .mini {
+    order: 4;
+}
+
+#mini:hover {
+    transform: scale(1.3);
+
+}
+
+#nanna {
+    background-image: url("");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+    order: 4;
+}
+
+#contact .nanna {
+    order: 4;
+}
+
+#nanna:hover {
+    transform: scale(1.3);
+
+}
+
+/*---------- NAVIGATIONS MENU --------*/
+
+#primary_nav_wrap {
+    background-color: rgba(23, 44, 103, 0.93);
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+}
+
+#primary_nav_wrap ul {
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0
+}
+
+#primary_nav_wrap ul a {
+    display: inline-block;
+    color: #F7F0E7;
+    margin: 1.2vw;
+    text-decoration: none;
+    font-family: 'Futura';
+    font-weight: bold;
+    font-size: 1vw;
+    letter-spacing: 0.2vw;
+    vertical-align: middle;
+}
+
+#primary_nav_wrap ul a:hover {
+    color: #91A1CD;
+}
+
+#primary_nav_wrap ul li {
+    position: relative;
+    display: inline-block;
+    margin: 6px;
+
+}
+
+#primary_nav_wrap ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    margin-top: 3px;
+    background-color: rgba(23, 44, 103, 0.93);
+    padding: 0;
+    text-align: left;
+}
+
+#primary_nav_wrap ul ul li {
+    display: inline-block;
+    width: 200px;
+
+}
+
+#primary_nav_wrap ul ul a {
+
+    padding: 0;
+}
+
+#primary_nav_wrap ul ul ul {
+    top: 0;
+    left: 100%
+}
+
+#primary_nav_wrap ul li:hover > ul {
+    color: #F7F0E7;
+    display: block;
+}
+
+/*--------- DROPDOWN MENU ----------*/
+
+/*---- DROP DOWN MENU ---*/
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(39, 55, 96, 1);
+    height: 55px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 4;
+}
+
+.container_drop {
+    margin: 0;
+    position: fixed;
+    padding: 8px 20px;
+    display: block;
+    cursor: pointer;
+    background-color: rgba(39, 55, 96, 1);
+    min-width: 200px;
+}
+
+.container_drop a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #F7F0E7;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+    background-color: #91A1CD;
+
+}
+
+/* Fade out the second bar */
+
+.change .bar2 {
+    opacity: 0;
+    background-color: #91A1CD;
+
+}
+
+/* Rotate last bar */
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+    background-color: #91A1CD;
+}
+
+.dropdown {
+    display: none;
+}
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+    min-width: 160px;
+    width: 20px;
+    z-index: 1;
+    padding: 10px 40px 10px 10px;
+}
+
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    color: #F7F0E7;
+    padding: 20px 0px 0px 5px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Futura';
+    letter-spacing: 3px;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+    color: #91A1CD;
+}
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+
+.show {
+    display: block;
+}
+
+
+/*-------- Media Queries ---------- */
+
+@media all and (max-width: 828px) {
+    nav {
+        display: none;
+    }
+}
+
+@media all and (min-width: 828px) {
+    header {
+        display: none;
+    }
+}
