@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #172C67;
+    background-color: #f25553;
     width: 100%;
 }
 
@@ -17,7 +17,7 @@ section {
 /*---- SPLASH ----*/
 
 #splash {
-    background-image: url(img/splash_kea_rent.jpg);
+    background-image: url(img/splash_rent_red.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -30,7 +30,7 @@ section {
 /*---- IDEA ----*/
 
 #idea {
-    background-color: #172C67;
+    background-color: #400000;
     margin: 0;
     height: 700px;
 }
@@ -51,7 +51,7 @@ section {
     font-size: 25px;
     font-family: 'Futura';
     letter-spacing: 2px;
-    color: #91A1CD;
+    color: #d7615f;
     margin: 10px;
 }
 
@@ -82,7 +82,7 @@ section {
 /*---- APP ----*/
 
 #app {
-    background-color: #284083;
+    background-color: #8b302f;
 }
 
 #app h1 {
@@ -98,7 +98,7 @@ section {
 /*---- PITCH ----*/
 
 #pitch {
-    background-color: #405794;
+    background-color: #d7615f;
 
 }
 
@@ -114,7 +114,7 @@ section {
 
 #pitch a {
     font-size: 3vw;
-    color: #91A1CD;
+    color: #8b302f;
     position: absolute;
     left: 38.5vw;
     margin-top: 10vw;
@@ -123,7 +123,7 @@ section {
 /*---- SCRUM ----*/
 
 #scrum {
-    background-color: #91A1CD;
+    background-color: #8b302f;
     height: 100%;
     padding-bottom: 50px;
 }
@@ -162,7 +162,7 @@ section {
 /*---- WORK ----*/
 
 #work {
-    background-color: #405794;
+    background-color: #400000;
 }
 
 #work h1 {
@@ -189,10 +189,6 @@ section {
     color: #202533;
 }
 
-#fernis {
-    padding-left: 180px;
-}
-
 #work p {
     font-family: 'Open Sans';
     color: #202533;
@@ -210,7 +206,7 @@ section {
 /*---- TEST ----*/
 
 #test {
-    background-color: #284083;
+    background-color: #8b302f;
 }
 
 #test h1 {
@@ -225,7 +221,7 @@ section {
 
 #test a {
     font-size: 3vw;
-    color: #91A1CD;
+    color: #d7615f;
     position: absolute;
     left: 26.4vw;
     margin-top: 10vw;
@@ -236,7 +232,7 @@ section {
 /*---- CONTACT ----*/
 
 #contact {
-    background-color: #172C67;
+    background-color: #d7615f;
     padding-bottom: 70px;
 }
 
@@ -381,7 +377,7 @@ section {
 /*---------- NAVIGATIONS MENU --------*/
 
 #primary_nav_wrap {
-    background-color: rgba(23, 44, 103, 0.93);
+    background-color: rgba(64, 0, 0, 0.92);
     position: fixed;
     width: 100%;
     text-align: center;
@@ -409,7 +405,7 @@ section {
 }
 
 #primary_nav_wrap ul a:hover {
-    color: #91A1CD;
+    color: #d7615f;
 }
 
 #primary_nav_wrap ul li {
@@ -426,7 +422,7 @@ section {
     left: 0;
     margin: 0;
     margin-top: 3px;
-    background-color: rgba(23, 44, 103, 0.93);
+    background-color: rgba(64, 0, 0, 0.92);
     padding: 0;
     text-align: left;
 }
@@ -459,7 +455,7 @@ section {
 header {
     position: fixed;
     width: 100%;
-    background-color: rgba(39, 55, 96, 1);
+    background-color: rgba(64, 0, 0, 0.92);
     height: 55px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 4;
@@ -471,8 +467,8 @@ header {
     padding: 8px 20px;
     display: block;
     cursor: pointer;
-    background-color: rgba(39, 55, 96, 1);
-    min-width: 200px;
+    background-color: rgba(64, 0, 0, 0.92);
+    min-width: 280px;
 }
 
 .container_drop a {
@@ -497,7 +493,7 @@ header {
 .change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
     transform: rotate(-45deg) translate(-9px, 6px);
-    background-color: #91A1CD;
+    background-color: #d7615f;
 
 }
 
@@ -505,7 +501,7 @@ header {
 
 .change .bar2 {
     opacity: 0;
-    background-color: #91A1CD;
+    background-color: #d7615f;
 
 }
 
@@ -514,7 +510,7 @@ header {
 .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
-    background-color: #91A1CD;
+    background-color: #d7615f;
 }
 
 .dropdown {
@@ -546,7 +542,7 @@ header {
 /* Change color of dropdown links on hover */
 
 .dropdown-content a:hover {
-    color: #91A1CD;
+    color: #d7615f;
 }
 
 
