@@ -1,12 +1,12 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #f25553;
+    background-color: #DFB4A9;
     width: 100%;
 }
 
 section {
-    background-color: #f25553;
+    background-color: #DFB4A9;
     width: 100%;
     height: 600px;
     padding-top: 70px;
@@ -30,7 +30,7 @@ section {
 /*---- IDEA ----*/
 
 #idea {
-    background-color: #400000;
+    background-color: #DFB4A9;
     margin: 0;
     height: 700px;
 }
@@ -51,7 +51,7 @@ section {
     font-size: 25px;
     font-family: 'Futura';
     letter-spacing: 2px;
-    color: #d7615f;
+    color: rgb(177, 137, 130);
     margin: 10px;
 }
 
@@ -82,7 +82,7 @@ section {
 /*---- APP ----*/
 
 #app {
-    background-color: #8b302f;
+    background-color: #ECC2BB;
 }
 
 #app h1 {
@@ -95,10 +95,18 @@ section {
     margin-bottom: 20px;
 }
 
+#app a {
+    font-size: 3vw;
+    color: rgb(177, 137, 130);
+    position: absolute;
+    left: 31.5vw;
+    margin-top: 10vw;
+}
+
 /*---- PITCH ----*/
 
 #pitch {
-    background-color: #d7615f;
+    background-color: #F6BAB3;
 
 }
 
@@ -114,7 +122,7 @@ section {
 
 #pitch a {
     font-size: 3vw;
-    color: #8b302f;
+    color: rgb(177, 137, 130);
     position: absolute;
     left: 38.5vw;
     margin-top: 10vw;
@@ -123,7 +131,7 @@ section {
 /*---- SCRUM ----*/
 
 #scrum {
-    background-color: #8b302f;
+    background-color: #F3D4CE;
     height: 100%;
     padding-bottom: 50px;
 }
@@ -162,7 +170,7 @@ section {
 /*---- WORK ----*/
 
 #work {
-    background-color: #400000;
+    background-color: #ECC2BB;
 }
 
 #work h1 {
@@ -182,7 +190,7 @@ section {
     font-size: 20px;
     font-family: 'Futura';
     letter-spacing: 5px;
-    color: #F49131;
+    color: rgb(177, 137, 130);
 }
 
 #work a:hover {
@@ -206,7 +214,7 @@ section {
 /*---- TEST ----*/
 
 #test {
-    background-color: #8b302f;
+    background-color: #F6BAB3;
 }
 
 #test h1 {
@@ -221,7 +229,7 @@ section {
 
 #test a {
     font-size: 3vw;
-    color: #d7615f;
+    color: rgb(177, 137, 130);
     position: absolute;
     left: 26.4vw;
     margin-top: 10vw;
@@ -232,7 +240,7 @@ section {
 /*---- CONTACT ----*/
 
 #contact {
-    background-color: #d7615f;
+    background-color: #ECC2BB;
     padding-bottom: 70px;
 }
 
@@ -377,7 +385,7 @@ section {
 /*---------- NAVIGATIONS MENU --------*/
 
 #primary_nav_wrap {
-    background-color: rgba(64, 0, 0, 0.92);
+    background-color: rgb(177, 137, 130);
     position: fixed;
     width: 100%;
     text-align: center;
