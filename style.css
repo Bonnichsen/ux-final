@@ -135,6 +135,7 @@ section {
 
 #app {
     background-color: #DFB4A9;
+    justify-content: center;
 
 }
 
@@ -148,12 +149,8 @@ section {
     margin-bottom: 20px;
 }
 
-#app a {
-    font-size: 3vw;
-    color: rgb(177, 137, 130);
-    position: absolute;
-    left: 40.5vw;
-    margin-top: 10vw;
+video {
+    justify-content: center;
 }
 
 /**** PITCH ****/
