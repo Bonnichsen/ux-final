@@ -17,6 +17,7 @@ section {
 /*---- SPLASH ----*/
 
 #splash {
+    background-color: #ECC2BB;
     width: 100%;
     height: 700px;
 }
