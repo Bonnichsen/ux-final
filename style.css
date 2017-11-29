@@ -36,9 +36,30 @@ section {
 #splash img {
     width: 15%;
     height: 100%;
-    margin: 0px 20px;
+    margin: 5px 20px;
 }
 
+#splash h1 {
+    font-family: 'Raleway';
+    font-size: 10vw;
+    letter-spacing: 5px;
+    color: #F7F0E7;
+    margin: 0;
+    position: absolute;
+    left: 20vw;
+    top: 7vw;
+}
+
+#splash h2 {
+    font-family: 'Raleway';
+    font-size: 10vw;
+    letter-spacing: 5px;
+    color: #F7F0E7;
+    margin: 0;
+    position: absolute;
+    right: 12.5vw;
+    top: 7vw;
+}
 
 /*---- IDEA ----*/
 
@@ -121,7 +142,7 @@ section {
 }
 
 #benefits p {
-    font-family: 'Open Sans';
+    font-family: 'Raleway';
     color: #F7F0E7;
 
 }
@@ -148,8 +169,6 @@ section {
 
 #app {
     background-color: #DFB4A9;
-    margin-bottom: 120px;
-
 }
 
 #app h1 {
@@ -162,66 +181,57 @@ section {
     margin-bottom: 20px;
 }
 
-#app a {
-    font-size: 3vw;
-    color: rgb(177, 137, 130);
+#app h2 {
+    text-align: left;
+    font-size: 25px;
     position: absolute;
-    left: 40.5vw;
+    font-family: 'Raleway';
+    letter-spacing: 2px;
+    color: rgb(177, 137, 130);
+    left: 15vw;
+
 }
 
-video {
-    display: block;
+#app h3 {
+    text-align: right;
+    position: absolute;
+    font-size: 25px;
+    font-family: 'Raleway';
+    letter-spacing: 2px;
+    color: rgb(177, 137, 130);
+    right: 17vw;
+}
+
+#img1 {
+    position: absolute;
+    width: 800px;
+    left: 50%;
+    z-index: 1;
     margin: auto;
 }
 
-/**** PITCH ****/
-
-#pitch {
-    background-color: #F6BAB3;
-
-}
-
-#pitch h1 {
-    text-align: center;
-    margin: 0;
-    font-size: 4.5vw;
-    font-family: 'Raleway';
-    letter-spacing: 5px;
-    color: #F7F0E7;
-    margin-bottom: 20px;
-}
-
-#pitch a {
-    font-size: 3vw;
-    color: rgb(177, 137, 130);
+#vid1 {
+    z-index: 20;
     position: absolute;
-    left: 38.5vw;
-    margin-top: 10vw;
+    right: 13.501%;
+    padding-bottom: 0;
+    top: 181.9vw;
 }
 
-/****** DOCSITE ******/
-
-#docsite {
-    background-color: #DFB4A9;
-
-}
-
-#docsite h1 {
-    text-align: center;
-    margin: 0;
-    font-size: 4.5vw;
-    font-family: 'Raleway';
-    letter-spacing: 5px;
-    color: #F7F0E7;
-    margin-bottom: 20px;
-}
-
-#docsite a {
-    font-size: 3vw;
-    color: rgb(177, 137, 130);
+#img2 {
     position: absolute;
-    left: 26vw;
-    margin-top: 10vw;
+    width: 800px;
+    right: 50%;
+    z-index: 1;
+    margin: auto;
+}
+
+#vid2 {
+    z-index: 20;
+    position: absolute;
+    left: 12.18%;
+    padding-bottom: 0;
+    top: 181.9vw;
 }
 
 
@@ -246,7 +256,7 @@ video {
 #primary_nav_wrap ul a {
     display: inline-block;
     color: #F7F0E7;
-    margin: 1.2vw;
+    margin: 0.7vw 1.5vw;
     text-decoration: none;
     font-family: 'Raleway';
     font-weight: bold;
@@ -262,7 +272,6 @@ video {
 #primary_nav_wrap ul li {
     position: relative;
     display: inline-block;
-    margin: 6px;
 
 }
 
@@ -272,7 +281,7 @@ video {
     top: 100%;
     left: 0;
     margin: 0;
-    margin-top: 1px;
+    margin-top: -2px;
     background-color: rgb(177, 137, 130);
     padding: 0;
     text-align: left;
