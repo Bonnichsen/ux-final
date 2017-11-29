@@ -135,6 +135,7 @@ section {
 
 #app {
     background-color: #DFB4A9;
+    margin-bottom: 120px;
 
 }
 
@@ -153,7 +154,11 @@ section {
     color: rgb(177, 137, 130);
     position: absolute;
     left: 40.5vw;
-    margin-top: 10vw;
+}
+
+video {
+    display: block;
+    margin: auto;
 }
 
 /**** PITCH ****/
